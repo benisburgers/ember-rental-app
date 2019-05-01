@@ -1,0 +1,6 @@
+<h2>rentals/index</h2>
+
+{{#each this.model as |rentalUnit|}}
+  <RentalListing @rental={{rentalUnit}} />
+{{/each}}
+{{outlet}}
